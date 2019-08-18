@@ -1,24 +1,48 @@
-#root {
+body {
     background-color: #45454d;
 }
 
 #about-section {
-    background-color: #ff4893;
+    color: #ff4893;
     display: block;
     width: 100%;
     height: 100px;
 }
 
 #projects-section {
-    background-color: #ffd5d5;
+    color: #ffd5d5;
     display: block;
     width: 100%;
-    height: 500px;
 }
 
+iframe {
+    max-height: 450px;
+    min-width: auto;
+}
+
+
 #experience-section {
-    background-color: #fff1e9;
+    color: #fff1e9;
     display: block;
     width: 100%;
     height: 300px;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
