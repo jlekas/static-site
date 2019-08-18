@@ -1,0 +1,24 @@
+#root {
+    background-color: #45454d;
+}
+
+#about-section {
+    background-color: #ff4893;
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+#projects-section {
+    background-color: #ffd5d5;
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+#experience-section {
+    background-color: #fff1e9;
+    display: block;
+    width: 100%;
+    height: 300px;
+}
