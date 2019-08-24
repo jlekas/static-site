@@ -21,7 +21,7 @@
 
 #container {
     background-color: #160f30;
-    width: 65%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -29,7 +29,10 @@
 }
 
 section {
-    width: 65%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    list-style: none;
 }
 
 nav {
@@ -57,7 +60,6 @@ nav {
 #projects-section {
     background-color: #ffd5d5;
     display: block;
-    width: 100%;
 }
 
 iframe {
@@ -69,8 +71,13 @@ iframe {
 #experience-section {
     color: #fff1e9;
     display: block;
-    width: 100%;
-    height: 300px;
+}
+
+#experience-section img {
+    border-radius: 25px;
+    width: 100px;
+    height: 100px;
+    text-align: left;
 }
 
 #Contact div {
