@@ -31,14 +31,8 @@
         
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Experience</a>
+                <a class="nav-link" href="#experience-section">Experience</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -51,128 +45,136 @@
                   <a class="dropdown-item" href="#">Personal Site</a>
                 </div>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills-section">Skills</a>
+              </li>
               <li class="nav-item mr-sm-2">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact-section">Contact</a>
               </li>
             </ul>
           </div>
         </nav>
       </section>
-      <div id="container">
+      <div class="container" id="container">
         <section id="about-section">
-          <div class="row">
-            <div class="col">
-              <h2>Hi, I'm Jake</h2>
+          <div class="content">
+            <div class="row">
+              <div class="col">
+                <h2>Hi, I'm Jake</h2>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <img src="img/face.JPG"/>
-            </div>
-            <div class="col">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="row">
+              <div class="col">
+                <img src="img/face.JPG"/>
+              </div>
+              <div class="col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
             </div>
           </div>
         </section>
         <section id="experience-section">
-          <div class="row" id="freewheel">
-            <div class="col">
-              <img src="img/freewheel.png"/>
-            </div>
-            <div class="col">
-              <p>Software Enginner</p>
-            </div>
-            <div class="col">
-              <p>FreeWheel</p>
-            </div>
-            <div class="col">
-              <p>Aug 2019 - Present</p>
-            </div>
-            <div class="col">
-              <p>New York City, NY</p>
-            </div>
-          </div>
-          <div id="unibit">
-            <div class="row">
+          <div class="content">
+            <div class="row" id="freewheel">
               <div class="col">
-                <img src="img/unibit.png"/>
+                <img src="img/freewheel.png"/>
               </div>
               <div class="col">
-                <p>Software Engineering Intern</p>
+                <p>Software Enginner</p>
               </div>
               <div class="col">
-                <p>Unibit</p>
+                <p>FreeWheel</p>
               </div>
               <div class="col">
-                <p>June 2018 - Aug 2018</p>
+                <p>Aug 2019 - Present</p>
               </div>
               <div class="col">
-                <p>Boston, MA</p>
+                <p>New York City, NY</p>
               </div>
             </div>
-            <div class="row">
-              <ul>
-                <li>Developed APIs using Java Spring Boot to store and retrieve stock and cryptocurrency information in a MongoDB replica set</li>
-                <li>Updated standalone local services to dockerized containers executing on EC2 instances and integrated the services with a Jenkins server to update code</li>
-                <li>Wrote an API gateway to route traffic from clients to various microservices using AWS load balancers and auto-scaling groups</li>
-                <li>Constructed an ETL pipeline using Docker, RabbitMQ, Python,  and Node.js to extract, transform, and store news articles and meta data in MongoDB</li>
-              </ul>
-            </div>
-          </div>
-          <div id="maven-machines">
-            <div class="row">
-              <div class="col">
-                <img src="img/maven_machines_logo.png"/>
+            <div id="unibit">
+              <div class="row">
+                <div class="col">
+                  <img src="img/unibit.png"/>
+                </div>
+                <div class="col">
+                  <p>Software Engineering Intern</p>
+                </div>
+                <div class="col">
+                  <p>Unibit</p>
+                </div>
+                <div class="col">
+                  <p>June 2018 - Aug 2018</p>
+                </div>
+                <div class="col">
+                  <p>Boston, MA</p>
+                </div>
               </div>
-              <div class="col">
-                <p>Software Engineering Intern</p>
-              </div>
-              <div class="col">
-                <p>Maven Machines</p>
-              </div>
-              <div class="col">
-                <p>May 2017 - Aug 2017</p>
-              </div>
-              <div class="col">
-                <p>Pittsburgh, PA</p>
-              </div>
-            </div>
-            <div class="row">
-              <ul>
-                <li>Collaborated with Mobile Developers to update microservices responsible for maintaining and editing the application's timeline of truck driving events</li>
-                <li>Updated and deployed microservices responsible for tracking truck drivers' hours of service and collecting meta data on drivers</li>
-                <li>Worked with a manufacturing company to design and implement several APIs to write data from machine readings into DynamoDB tables</li>
-              </ul>
-            </div>
-          </div>
-          <div id="threat-stack">
-            <div class="row">
-              <div class="col">
-                <img src="img/threat-stack.png"/>
-              </div>
-              <div class="col">
-                <p>Backend Platform Intern</p>
-              </div>
-              <div class="col">
-                <p>Threat Stack</p>
-              </div>
-              <div class="col">
-                <p>June 2016 - Aug 2016</p>
-              </div>
-              <div class="col">
-                <p>Boston, MA</p>
+              <div class="row">
+                <ul>
+                  <li>Developed APIs using Java Spring Boot to store and retrieve stock and cryptocurrency information in a MongoDB replica set</li>
+                  <li>Updated standalone local services to dockerized containers executing on EC2 instances and integrated the services with a Jenkins server to update code</li>
+                  <li>Wrote an API gateway to route traffic from clients to various microservices using AWS load balancers and auto-scaling groups</li>
+                  <li>Constructed an ETL pipeline using Docker, RabbitMQ, Python,  and Node.js to extract, transform, and store news articles and meta data in MongoDB</li>
+                </ul>
               </div>
             </div>
-            <div class="row">
-              <ul>
-                <li>Produced APIs in Node.js to determine whether customers' servers were affected by certain Common Vulnerabilities and Exposures</li>
-                <li>Built a search component in React.js displaying information on Common Vulnerabilities and Exposures specifically exploitable on customers' servers</li>
-                <li>Led analysis on Postgresql databases in order to improve webscraping techniques, and data quality</li>
-              </ul>
+            <div id="maven-machines">
+              <div class="row">
+                <div class="col">
+                  <img src="img/maven_machines_logo.png"/>
+                </div>
+                <div class="col">
+                  <p>Software Engineering Intern</p>
+                </div>
+                <div class="col">
+                  <p>Maven Machines</p>
+                </div>
+                <div class="col">
+                  <p>May 2017 - Aug 2017</p>
+                </div>
+                <div class="col">
+                  <p>Pittsburgh, PA</p>
+                </div>
+              </div>
+              <div class="row">
+                <ul>
+                  <li>Collaborated with Mobile Developers to update microservices responsible for maintaining and editing the application's timeline of truck driving events</li>
+                  <li>Updated and deployed microservices responsible for tracking truck drivers' hours of service and collecting meta data on drivers</li>
+                  <li>Worked with a manufacturing company to design and implement several APIs to write data from machine readings into DynamoDB tables</li>
+                </ul>
+              </div>
+            </div>
+            <div id="threat-stack">
+              <div class="row">
+                <div class="col">
+                  <img src="img/threat-stack.png"/>
+                </div>
+                <div class="col">
+                  <p>Backend Platform Intern</p>
+                </div>
+                <div class="col">
+                  <p>Threat Stack</p>
+                </div>
+                <div class="col">
+                  <p>June 2016 - Aug 2016</p>
+                </div>
+                <div class="col">
+                  <p>Boston, MA</p>
+                </div>
+              </div>
+              <div class="row">
+                <ul>
+                  <li>Produced APIs in Node.js to determine whether customers' servers were affected by certain Common Vulnerabilities and Exposures</li>
+                  <li>Built a search component in React.js displaying information on Common Vulnerabilities and Exposures specifically exploitable on customers' servers</li>
+                  <li>Led analysis on Postgresql databases in order to improve webscraping techniques, and data quality</li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
         <section id="projects-section">
+          <div class="content">
             <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="false">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
@@ -208,17 +210,34 @@
                   <span class="sr-only">Next</span>
                 </a>
               </div>
+          </div>
         </section>
         <section id="skills-section">
-
+          <!--
+            I would like my skills section to have rows with names: languages, DBs, Frameworks,
+            & Other Technologies; when you click on a section stars with the different skills fly
+            onto the screen in a curving fashion if possible
+          -->
+          <div id="languages" class="content">
+            <div class="row">
+              <p>Languages</p>
+              <div class="col fa fa-star animated lightSpeedIn">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col"></div>
+            </div>
+          </div>
         </section>
         <section id="contact-section">
-          <div id="contact-list">
-            <ul>
-              <li><a href="https://www.linkedin.com/in/jameslekas/"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="https://github.com/jlekas"><i class="fa fa-github"></i></a></li>
-              <li><a href="https://cmu.app.box.com/file/117854739671"><i class="fa fa-file-text"></i></a></li>
-            </ul>
+          <div class="content">
+            <div id="contact-list">
+              <ul>
+                <li><a href="https://www.linkedin.com/in/jameslekas/"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/jlekas"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://cmu.app.box.com/file/117854739671"><i class="fa fa-file-text"></i></a></li>
+              </ul>
+            </div>
           </div>
         </section>
       </div>
