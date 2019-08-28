@@ -11,16 +11,16 @@
 }
 
 .fourthColor {
-    background-color: #eae7af;
+    background-color: #ffd5d5;
 }
 
 #root {
-    background-color: #160f30;
-    color: white;
+    background-color: #ffd5d5;
+    color: #160f30;
 }
 
 #container {
-    background-color: #160f30;
+    background-color: #ffd5d5;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -30,7 +30,6 @@
 
 section {
     margin: 0 auto;
-    padding: 0;
     text-align: center;
     list-style: none;
 }
@@ -40,7 +39,7 @@ div .content {
 }
 
 nav {
-    background-color: #a72693;
+    background-color: #160f30;
 }
 
 #about-section {
@@ -55,7 +54,10 @@ nav {
 
 #about-section img {
     border-radius: 500px;
+    width: auto;
+    /*
     width: 500px;
+    */
     height: 500px;
     text-align: left;
 }
@@ -65,15 +67,28 @@ nav {
     display: block;
 }
 
+#projects-section img {
+    width: 100%;
+    height: auto;
+    text-align: left;
+}
+
+#projects-section div{
+    padding: 10px;
+}
 iframe {
     max-height: 450px;
     min-width: auto;
 }
 
-
 #experience-section {
-    color: #fff1e9;
+    color: #160f30;
     display: block;
+}
+
+#experience-section div {
+    margin: 0 0 10 0;
+    padding: 0;
 }
 
 #experience-section ul{
@@ -82,8 +97,8 @@ iframe {
 
 #experience-section img {
     border-radius: 25px;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     text-align: left;
 }
 
@@ -118,7 +133,7 @@ iframe {
     text-align: center;
     text-decoration: none;
     border-radius: 25%;
-    color: white;
+    color: #160f30;
 }
 
 #skills-section {
