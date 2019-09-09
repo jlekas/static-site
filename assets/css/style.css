@@ -38,6 +38,10 @@ div .content {
     margin: 15px auto;
 }
 
+.nav-pills li.active{
+    background-color: #a72693;
+}
+
 nav {
     background-color: #160f30;
 }
