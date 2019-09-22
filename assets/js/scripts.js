@@ -8,9 +8,8 @@ $(document).ready(function() {
        $(this).addClass('active').siblings().removeClass('active')
    })
 
+   //TODO fix for the dropdown toggle
    $('.navbar-brand').on('click', function() {
-       console.log('hi');
-       //console.log($('nav-item', '#home'))
        $('.nav li').removeClass('active');
        $('#nav-home').addClass('active');
    })

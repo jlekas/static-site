@@ -26,12 +26,18 @@
     margin-right: auto;
     text-align: center;
     padding: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
 }
 
 section {
     margin: 0 auto;
     text-align: center;
     list-style: none;
+}
+
+.content h2 {
+    font-size: 3em;
 }
 
 div .content {
@@ -50,6 +56,7 @@ nav {
     display: block;
     width: 100%;
     margin: 80px auto;
+    font-size: 20px;
 }
 
 #about-section table p {
@@ -92,11 +99,12 @@ iframe {
 
 #experience-section div {
     margin: 0 0 10 0;
-    padding: 0;
+    padding: auto;
 }
 
 #experience-section ul{
     list-style: none;
+    text-align: left;
 }
 
 #experience-section img {
